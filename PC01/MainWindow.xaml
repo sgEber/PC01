@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Productos" HorizontalAlignment="Left" Margin="118,70,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <DataGrid Name="productos"  Margin="31,110,538,34"/>
+        <Button Content="Categorias" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <DataGrid Name="categorias" Margin="284,110,284,34"/>
+        <Button Content="Proveedores" HorizontalAlignment="Left" Margin="640,70,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <DataGrid Name="proveedores" Margin="544,110,10,34"/>
 
     </Grid>
 </Window>
